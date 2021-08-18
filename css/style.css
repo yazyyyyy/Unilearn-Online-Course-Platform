@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+.navbar-brand{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.custom-nav .custom-nav-item a{
+    color: #ffffff !important;
+}
+
+.custom-nav-item:hover{
+    background-color: #8a2be2;
+    border: 1px solid #8a2be2;
+    border-radius: 10px;
+}
+
+.vid-parent{
+    position: relative;
+}
+
+.remove-vid-mrg{
+    margin: 0px;
+    padding: 0px;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.vid-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #9370d8;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.vid-content{
+    position: absolute;
+    top: 35%;
+    z-index: 2;
+    text-align: center;
+    color: #ffffff;
+}
+
+.custom-btn{
+    margin-top: 10px;
+    background-color: #8a2be2;
+    border-color: #8a2be2;
+}
+
+/* Search bar */
+.search-bg{
+    opacity: 0.8;
+}
+.border-search{
+    border-color:#8a2be2
+}
+.btn-search{
+    background-color: #8a2be2;
+}
+/* End search bar  */
+
+.bottom-banner{
+    color: #ffffff;
+    padding: 10px;
+}
+
+@media screen and (min-width: 0) and (max-width: 700px){
+    .my-content,
+    .txt-banner{
+        display: none;
+    }
+
+    .vid-content{
+        top: 20%;
+    }
+
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #9370d8;
+    }
+
+    .custom-nav-item:hover{
+        background-color: none;
+        border-radius: none;
+        border: none;
+    }
+}
+
+.card .card-img{
+    width: 100%;
+    height: 175px;
+}
+
+a.social-hover:hover{
+    padding: 5px 100px;
+    text-decoration: none;
+    background-color: #5f5d5d;
+}
+
+.abt-section{
+    background-color: #e9ecef;
+}
